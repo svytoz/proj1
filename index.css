@@ -16,6 +16,24 @@ button:hover {
 
 }
 
-.header {
+header {
     background-color: blanchedalmond;
+    padding: 20px;
+    border: 4px solid;
+    border-color: aquamarine;
+    margin-bottom: 15px;
 }
+
+main {
+    background-color: rgb(247, 226, 187);
+    padding: 20px;
+    border: 4px solid;
+    border-color: aquamarine;
+}
+
+footer {
+       background-color: blanchedalmond;
+       padding: 20px;
+       border: 4px solid;
+       border-color: aquamarine;
+ }
