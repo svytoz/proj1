@@ -17,14 +17,12 @@ body {
 
 h1 {
   width: 956px;
-  height: 120px;
   font-weight: 400;
   font-size: 60px;
   line-height: 60px;
   text-align: left;
   margin-bottom: 30px;
   letter-spacing: -0.03em;
-
 }
 
 .title-img {
@@ -46,7 +44,6 @@ h1 {
   width: 430px;
   height: 81px;
   letter-spacing: -0.03em;
-
 }
 
 h2 {
@@ -59,20 +56,17 @@ h2 {
 }
 
 .description {
-width: 1051px;
-height: 518px;
+  width: 1051px;
 }
 
-p.description {
-  width: 1048px;
-  height: 366px;
+p.description-about {
+  width: 100%;
   font-weight: 400;
   font-size: 45px;
   line-height: 61px;
   margin-bottom: 30px;
   text-align: left;
   letter-spacing: -0.03em;
-
 }
 
 .btn {
@@ -87,4 +81,34 @@ p.description {
   line-height: 30px;
   cursor: pointer;
   text-decoration: none;
+}
+
+.projects {
+  width: 1150px;
+}
+
+.projects-img {
+  width: 1150px;
+  margin-bottom: 15px;
+}
+
+.project-name {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  margin-bottom: 15px;
+  width: 501px;
+  height: 41px;
+}
+
+a.projects {
+  width: 127px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  color: #ad1818;
+  text-decoration: none;
+  padding-left: 2px;
 }
