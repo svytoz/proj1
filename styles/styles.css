@@ -7,7 +7,7 @@ body {
   width: 1400px;
   margin: 0 auto;
   background-color: #ffffff;
-  padding: 125px 125px;
+  padding: 125px 125px 0;
 }
 
 .title-head {
@@ -25,18 +25,17 @@ h1 {
   letter-spacing: -0.03em;
 }
 
-.title-img {
+.title__img {
   background-image: url(../resources/h1background.png);
   width: 1150px;
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  padding-top: 379px;
-  padding-left: 40px;
+  position: relative;
 }
 
-.img-text {
+.title__img__text {
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
@@ -44,6 +43,9 @@ h1 {
   width: 430px;
   height: 81px;
   letter-spacing: -0.03em;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
 }
 
 h2 {
@@ -59,7 +61,7 @@ h2 {
   width: 1051px;
 }
 
-p.description-about {
+p.description__text {
   width: 100%;
   font-weight: 400;
   font-size: 45px;
@@ -85,21 +87,25 @@ p.description-about {
 
 .projects {
   width: 1150px;
+  margin-bottom: 150px;
 }
 
-.projects-img {
-  width: 1150px;
+.project {
+  width: 100%;
+  margin-bottom: 90px;
+}
+
+.projects__img {
   margin-bottom: 15px;
+  width: 1150px;
 }
 
-.project-name {
+.project__name {
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
   letter-spacing: -0.03em;
   margin-bottom: 15px;
-  width: 501px;
-  height: 41px;
 }
 
 a.projects {
@@ -111,4 +117,67 @@ a.projects {
   color: #ad1818;
   text-decoration: none;
   padding-left: 2px;
+}
+
+.project__link {
+  width: 127px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  color: #ad1818;
+  text-decoration: none;
+}
+
+a.projects__btn {
+  width: 1150px;
+  height: 153px;
+  display: block;
+  border: 1px solid #AD1818;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #AD1818;
+  text-align: center;
+  padding-top: 56px;
+}
+
+a.projects__btn:hover {
+  background-color: #AD1818;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.section {
+  margin: 0 auto;
+  width: 1400px;
+  background-color: #121212;
+
+
+}
+
+.services {
+  width: 1150px;
+  padding-left: 125px;
+  padding-bottom: 150px;
+  color: #ffffff;
+}
+
+.service {
+  width: 1150px;
+}
+
+.service__img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.service__name {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  margin-bottom: 60px;
+
 }
