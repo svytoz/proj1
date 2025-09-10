@@ -98,6 +98,9 @@ p.description__text {
 .projects__img {
   margin-bottom: 15px;
   width: 1150px;
+  height: 450px;
+  object-fit: cover;
+  object-position: 0 92%;
 }
 
 .project__name {
@@ -141,6 +144,7 @@ a.projects__btn {
   color: #AD1818;
   text-align: center;
   padding-top: 56px;
+  border-radius: 5px;
 }
 
 a.projects__btn:hover {
@@ -153,8 +157,6 @@ a.projects__btn:hover {
   margin: 0 auto;
   width: 1400px;
   background-color: #121212;
-
-
 }
 
 .services {
@@ -170,7 +172,10 @@ a.projects__btn:hover {
 
 .service__img {
   width: 100%;
+  height: 270px;
   margin-bottom: 15px;
+  object-fit: cover;
+  object-position: 0 50%;
 }
 
 .service__name {
@@ -179,5 +184,4 @@ a.projects__btn:hover {
   line-height: 30px;
   letter-spacing: -0.03em;
   margin-bottom: 60px;
-
 }
