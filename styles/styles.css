@@ -197,7 +197,7 @@ a.projects__btn:hover {
 
 .section-black {
   background-color: #121212;
-
+  min-width: 1900px;
 }
 
 .section {
