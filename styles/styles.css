@@ -3,11 +3,53 @@ body {
   width: 100%;
 }
 
+.header {
+  width: 1400px;
+  min-width: 1400px;
+  margin: 32px auto 70px;
+  padding: 0 125px 0;
+
+}
+
+.nav-bar {
+  display: inline-block;
+  position: relative;
+}
+
+.logo {
+  margin-right: 548px;
+  display: inline-block;
+
+}
+
+.nav__link {
+  margin-right: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  color: #121212;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.last {
+  margin-right: 0px;
+  float: right;
+  position: absolute;
+  bottom: 0px;
+}
+
+.nav__link:active {
+  text-decoration-line: line-through;
+}
+
 .main {
   width: 1400px;
   margin: 0 auto;
   background-color: #ffffff;
-  padding: 125px 125px 0;
+  padding: 0 125px 0;
 }
 
 .title-head {
@@ -153,10 +195,14 @@ a.projects__btn:hover {
   cursor: pointer;
 }
 
+.section-black {
+  background-color: #121212;
+
+}
+
 .section {
   margin: 0 auto;
   width: 1400px;
-  background-color: #121212;
 }
 
 .services {
