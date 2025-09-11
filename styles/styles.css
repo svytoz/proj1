@@ -3,6 +3,11 @@ body {
   width: 100%;
 }
 
+.section-white {
+  background-color: #ffffff;
+  min-width: 1900px;
+}
+
 .header {
   width: 1400px;
   min-width: 1400px;
